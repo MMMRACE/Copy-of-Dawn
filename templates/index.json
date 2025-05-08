@@ -279,7 +279,7 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
@@ -289,6 +289,49 @@
         "mobile_content_alignment": "center",
         "show_text_below": true
       }
+    },
+    "rich_text_cQRzwj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_i7eCMH": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Built from the Ground Up.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_e8Xq8p": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>We started in a garage, just wrenching on our own cars and figuring things out as we went. Eventually, we hit the track, got hooked on time attack, and started competing. Now we work in racing full-time — and everything we sell is gear we’d actually use ourselves.<br/><br/></p>"
+          }
+        },
+        "button_VRgJi9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_i7eCMH",
+        "text_e8Xq8p",
+        "button_VRgJi9"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -297,6 +340,7 @@
     "multicolumn_QjTgLi",
     "featured_collection_NP4mhR",
     "multicolumn_zicTdV",
-    "image_banner_YBUAhY"
+    "image_banner_YBUAhY",
+    "rich_text_cQRzwj"
   ]
 }
