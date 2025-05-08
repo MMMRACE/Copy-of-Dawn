@@ -1,0 +1,30 @@
+{% schema %}
+{
+  "name": "Product Tabs",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "settings": [
+        { "type": "text", "id": "tab_title", "label": "Tab Title" },
+        { "type": "richtext", "id": "tab_content", "label": "Tab Content" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "Product Tabs" }]
+}
+{% endschema %}
+
+<div class="tabs">
+  <ul>
+    {% for block in section.blocks %}
+      <li><a href="#tab-{{ forloop.index }}">{{ block.settings.tab_title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% for block in section.blocks %}
+    <div id="tab-{{ forloop.index }}" class="tab-content">
+      {{ block.settings.tab_content }}
+    </div>
+  {% endfor %}
+</div>

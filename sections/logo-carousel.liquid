@@ -1,0 +1,29 @@
+{% schema %}
+{
+  "name": "Logo Carousel",
+  "max_blocks": 10,
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "Logo",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Logo Image" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "Logo Carousel" }]
+}
+{% endschema %}
+
+<div class="logo-carousel">
+  {% for block in section.blocks %}
+    {% if block.settings.image != blank %}
+      <div class="logo-slide"><img src="{{ block.settings.image | img_url: 'medium' }}"></div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<style>
+.logo-carousel { display: flex; overflow-x: auto; gap: 20px; }
+.logo-slide img { height: 60px; display: block; }
+</style>
