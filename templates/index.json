@@ -56,9 +56,58 @@
         "mobile_content_alignment": "center",
         "show_text_below": false
       }
+    },
+    "collection_list_Q6YiqN": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_E6WkB9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "brakes"
+          }
+        },
+        "featured_collection_n4gH6Q": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "engine-components"
+          }
+        },
+        "featured_collection_qLqmmL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "suspension"
+          }
+        },
+        "featured_collection_8LYcj3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "electronics"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_E6WkB9",
+        "featured_collection_n4gH6Q",
+        "featured_collection_qLqmmL",
+        "featured_collection_8LYcj3"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-4",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "image_banner"
+    "image_banner",
+    "collection_list_Q6YiqN"
   ]
 }
