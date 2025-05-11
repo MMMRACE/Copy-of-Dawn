@@ -281,41 +281,11 @@
     },
     "image_banner_YBUAhY": {
       "type": "image-banner",
-      "blocks": {
-        "heading_waHh3N": {
-          "type": "heading",
-          "settings": {
-            "heading": "Promotional Offer",
-            "heading_size": "h1"
-          }
-        },
-        "text_d4Neg7": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_YQ6LGp": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_waHh3N",
-        "text_d4Neg7",
-        "buttons_YQ6LGp"
-      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image_overlay_opacity": 0,
+        "image": "shopify://shop_images/garrett.png",
+        "image_2": "shopify://shop_images/19ab9f5bf6a93f7239fe0e3cb09b5d10_81cfde28-7c47-4d1d-82d3-d3162f1c5a68.jpg",
+        "image_overlay_opacity": 10,
         "image_height": "small",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
