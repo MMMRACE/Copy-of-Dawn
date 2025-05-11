@@ -105,29 +105,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_gp7Pyw": {
-      "type": "rich-text",
-      "blocks": {
-        "text_ygWgKh": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Built by Enthusiasts, for Every Driver.     </strong></p><p></p><p><strong>   </strong>From Euro builds to JDM icons, we stock high-performance parts for some of the most respected tuner platforms — and yeah, we know the EP3 inside and out.<br/><br/></p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_ygWgKh"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "multicolumn_QjTgLi": {
       "type": "multicolumn",
       "blocks": {
@@ -211,14 +188,38 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_gp7Pyw": {
+      "type": "rich-text",
+      "blocks": {
+        "text_ygWgKh": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Built by Enthusiasts, for Every Driver.     </strong></p><p></p><p><strong>   </strong>From Euro builds to JDM icons, we stock high-performance parts for some of the most respected tuner platforms.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_ygWgKh"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn_zicTdV": {
       "type": "multicolumn",
       "blocks": {
         "column_9AFdRN": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/honda.svg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -226,8 +227,9 @@
         "column_peBH8q": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/toyota.svg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -235,8 +237,19 @@
         "column_Lt448A": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/bmw.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gm8wfB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/nissan.svg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -245,11 +258,12 @@
       "block_order": [
         "column_9AFdRN",
         "column_peBH8q",
-        "column_Lt448A"
+        "column_Lt448A",
+        "column_gm8wfB"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Shop By Vehicle",
+        "title": "Shop By Make",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -258,7 +272,7 @@
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
