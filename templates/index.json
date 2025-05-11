@@ -322,7 +322,7 @@
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "image_layout": "alternate-left",
         "heading_size": "h1",
         "text_style": "body",
@@ -334,40 +334,6 @@
         "row_color_scheme": "scheme-4",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "image_banner_YBUAhY": {
-      "type": "image-banner",
-      "blocks": {
-        "buttons_R6fRFi": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Garrett",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "buttons_R6fRFi"
-      ],
-      "disabled": true,
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/garrett.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
       }
     },
     "rich_text_cQRzwj": {
@@ -422,7 +388,6 @@
     "rich_text_gp7Pyw",
     "multicolumn_zicTdV",
     "multirow_KWXgTt",
-    "image_banner_YBUAhY",
     "rich_text_cQRzwj"
   ]
 }
